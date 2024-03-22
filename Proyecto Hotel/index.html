@@ -10,22 +10,75 @@
 
 <body>
     <header>
-        <h1>Maldo INN</h1>
+        <div class="nav-principal-bg contenedor">
+            <nav class="nav-principal">
+                <h1 class="titulo">Maldo INN</h1>
+                <div class="nav">
+                    <a href="">Inicio</a>
+                    <a href="">Reserva</a>
+                    <a href="">Ofertas</a>
+                    <a href="">Ayuda</a>
+                </div>
+            </nav>
+        </div>
     </header>
-    <div class="nav-principal-bg">
-        <nav class="nav-principal">
-            <a href="">Inicio</a>
-            <a href="">Reserva</a>
-            <a href="">Ofertas</a>
-            <a href="">Ayuda</a>
-        </nav>
-    </div>
+
     <div class="bg">
         <section class="nav-secundario">
-            <a href="">Hoteles</a>
-            <a href="">Hotel + avion</a>
-            <a href="">Hotel + autos</a>
-            <a href="">All included</a>
+            <div class="nav-sec-a">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building" width="44"
+                    height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M3 21l18 0" />
+                    <path d="M9 8l1 0" />
+                    <path d="M9 12l1 0" />
+                    <path d="M9 16l1 0" />
+                    <path d="M14 8l1 0" />
+                    <path d="M14 12l1 0" />
+                    <path d="M14 16l1 0" />
+                    <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16" />
+                </svg>
+
+                <a href="">Hoteles </a>
+            </div>
+            <div class="nav-sec-a">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-tilt" width="44"
+                    height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M14.5 6.5l3 -2.9a2.05 2.05 0 0 1 2.9 2.9l-2.9 3l2.5 7.5l-2.5 2.55l-3.5 -6.55l-3 3v3l-2 2l-1.5 -4.5l-4.5 -1.5l2 -2h3l3 -3l-6.5 -3.5l2.5 -2.5l7.5 2.5z" />
+                </svg>
+                <a href=""> Hotel + avion</a>
+            </div>
+            <div class="nav-sec-a">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-car" width="44" height="44"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                    <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                    <path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" />
+                </svg>
+
+                <a href=""> Hotel + autos</a>
+            </div>
+            <div class="nav-sec-a">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-microwave" width="44"
+                    height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M3 6m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
+                    <path d="M15 6v12" />
+                    <path d="M18 12h.01" />
+                    <path d="M18 15h.01" />
+                    <path d="M18 9h.01" />
+                    <path d="M6.5 10.5c1 -.667 1.5 -.667 2.5 0c.833 .347 1.667 .926 2.5 0" />
+                    <path d="M6.5 13.5c1 -.667 1.5 -.667 2.5 0c.833 .347 1.667 .926 2.5 0" />
+                </svg>
+                <a href=""> All included</a>
+            </div>
         </section>
     </div>
 
@@ -34,61 +87,79 @@
             <section class="Slider">
                 <div class="container">
 
-                    <ul class="slider">
-                        <li id="slide1">
-                            <img src="img/foto1.jpg" />
-                        </li>
-                        <li id="slide2">
-                            <img src="img/foto2.jpg" />
-                        </li>
-                        <li id="slide3">
-                            <h1>Ejemplo con otros elementos</h1>
-                            <p>Esto es un párrafo de ejemplo para comprobar que podemos meter cualquier tipo de
-                                elementos en el slider</p>
-                            <a href="https://kikopalomares.com/">¡Corre a mi web para más contenido!</a>
-                        </li>
-                    </ul>
-
-                    <ul class="menu">
-                        <li>
-                            <a href="#slide1">1</a>
-                        </li>
-                        <li>
-                            <a href="#slide2">2</a>
-                        </li>
-                        <li>
-                            <a href="#slide3">3</a>
-                        </li>
-                    </ul>
-
-                </div>
+                    <div class="wrapper">
+                        <div class="slider" id="slider">
+                            <ul class="slides">
+                                <li class="slide" id="slide1">
+                                    <a href="#">
+                                        <p class="caption">Exterior</p>
+                                        <img src="img/Aerea-HXM-1.jpg" alt="photo 1">
+                                    </a>
+                                </li>
+                                <li class="slide" id="slide2">
+                                    <a href="#">
+                                        <p class="caption">Playa</p>
+                                        <img src="img/playa.jpg" alt="photo 2">
+                                    </a>
+                                </li>
+                                <li class="slide" id="slide3">
+                                    <a href="#">
+                                        <p class="caption">Restaurante</p>
+                                        <img src="img/restaurante.jpg" alt="photo 3">
+                                    </a>
+                                </li>
+                                
+                                <li class="slide">
+                                    <a href="#">
+                                        <p class="caption">Exterior</p>
+                                        <img src="img/Aerea-HXM-1.jpg" alt="photo 1">
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="slider-controler">
+                                <li><a href="#slide1">&bullet;</a></li>
+                                <li><a href="#slide2">&bullet;</a></li>
+                                <li><a href="#slide3">&bullet;</a></li>
+                            </ul>
+                        </div>
+                    </div>
 
             </section>
         </div>
-        <div>
-            <section class="Sugerencias"></section>
+        <div class="Sugerencias">
+            <section class="Sugerencia">
+                <h2>Sugerencias</h2>
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
+            </section>
+            <section class="Sugerencia Promociones">
+                <h2>Promociones</h2>
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
+            </section>
         </div>
-        <div>
-            <section class="Promociones"></section>
+
+
+        <div class="form-content">
+            <form>
+                <fieldset>
+                    <legend>Busca tu habitacion</legend>
+                    <div class="campo">
+                        <label>Fecha ingreso</label>
+                        <input type="date" class="input">
+                    </div>
+                    <div class="campo">
+                        <label>Fecha salida</label>
+                        <input type="date" class="input">
+                    </div>
+                    <div class="campo">
+                        <label>Personas</label>
+                        <input type="number" class="input">
+                    </div>
+
+                    <input type="submit" value="Buscar" class="input boton">
+                </fieldset>
+            </form>
         </div>
-        <div>
-            <section class="Buscar">
-        </div>
-        <form>
-            <fieldset>
-                <legend>Busca tu vuelo</legend>
-                <label>Origen</label>
-                <input type="text">
-                <label>Destino</label>
-                <input type="text">
-                <label>Fechas</label>
-                <input type="date">
-                <label>Pasajeros</label>
-                <input type="number">
-                <input type="submit" value="Buscar">
-            </fieldset>
-        </form>
-        </section>
+
     </main>
 
     <footer>
